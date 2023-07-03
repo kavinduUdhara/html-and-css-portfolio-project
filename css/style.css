@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: Sans-serif;
@@ -77,13 +81,22 @@ nav ul{
 nav li{
     display: inline;
     padding: 10px 20px;
-    color: rgb(137, 63, 11);
     font-size: 22px;
     padding-right: 20px;
     font-weight: 200;
     border-radius: 80px;
     transition-duration: 0.5s;
     cursor: pointer;
+}
+
+nav .selected{
+    background-color: #ffffff7c;
+    backdrop-filter: blur(5px);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(137, 63, 11);
 }
 
 nav li:hover{
@@ -169,15 +182,14 @@ section article{
 }
 
 section article img{
-    width: 100%;
+    width: 350px;
+    height: 350px;
 }
 
 section article h1{
-    position: absolute;
-    top: 10px;
     text-shadow:  #D06040 1px 0 10px;
     color: white;
-    font-size: 4vw;
+    font-size: 25px;
     padding: 10px;
 }
 
