@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site":"html-and-css-portfolio-project",
+    "public": "..\\html-and-css-portfolio-project",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
